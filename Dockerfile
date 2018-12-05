@@ -14,6 +14,7 @@ RUN apt-get update \
     && apt-get clean
 
 RUN apt-add-repository 'deb http://ppa.launchpad.net/ansible/ansible/ubuntu trusty main' \
+    && apt-get update \
     && APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE=1 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367 \
     && apt-get install -y ansible \
     && rm -rf /var/lib/apt/lists/* \
