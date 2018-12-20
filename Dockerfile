@@ -1,6 +1,7 @@
 FROM debian:stretch
-ENV container=docker
-ENV DEBIAN_FRONTEND noninteractive
+
+ENV CONTAINER=docker
+ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
