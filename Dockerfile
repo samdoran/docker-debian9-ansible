@@ -8,6 +8,7 @@ RUN apt-get update \
         ca-certificates \
         dirmngr \
         gnupg2 \
+        python-pip \
         software-properties-common \
         sudo \
         systemd systemd-cron sudo curl \
