@@ -9,6 +9,7 @@ RUN apt-get update \
         ca-certificates \
         dirmngr \
         gnupg2 \
+        libcap2-bin \
         python-pip \
         software-properties-common \
         sudo \
