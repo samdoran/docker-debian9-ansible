@@ -1,6 +1,5 @@
 FROM debian:stretch
-
-ENV CONTAINER=docker
+ENV container=docker
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update \
