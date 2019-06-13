@@ -5,11 +5,13 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
         apt-transport-https \
+        aptitude \
         bash \
         ca-certificates \
         dirmngr \
         gnupg2 \
         libcap2-bin \
+        python-apt \
         python-pip \
         software-properties-common \
         sudo \
