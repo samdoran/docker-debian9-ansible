@@ -8,6 +8,7 @@ RUN apt-get update \
         aptitude \
         bash \
         ca-certificates \
+        curl \
         dirmngr \
         gnupg2 \
         libcap2-bin \
@@ -15,7 +16,9 @@ RUN apt-get update \
         python-pip \
         software-properties-common \
         sudo \
-        systemd systemd-cron sudo curl \
+        sudo \
+        systemd \
+        systemd-cron \
     && rm -rf /var/lib/apt/lists/* \
     && rm -Rf /usr/share/doc && rm -Rf /usr/share/man \
     && apt-get clean
