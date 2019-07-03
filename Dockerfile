@@ -14,8 +14,10 @@ RUN apt-get update \
         libcap2-bin \
         python-apt \
         python-pip \
+        python-setuptools \
         python3-apt \
         python3-pip \
+        python3-setuptools \
         software-properties-common \
         sudo \
         systemd \
