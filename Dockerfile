@@ -14,8 +14,9 @@ RUN apt-get update \
         libcap2-bin \
         python-apt \
         python-pip \
+        python3-apt \
+        python3-pip \
         software-properties-common \
-        sudo \
         sudo \
         systemd \
         systemd-cron \
